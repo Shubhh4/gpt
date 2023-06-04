@@ -7,7 +7,7 @@ const chatContainer = document.querySelector('#chat_container')
 let loadInterval
 
 function loader(element) {
-    element.textContent = ''
+    element.textContet = ''
 
     loadInterval = setInterval(() => {
         // Update the text content of the loading indicator
